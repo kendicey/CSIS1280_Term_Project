@@ -1,0 +1,132 @@
+* {
+	background-color: black;
+	font-family: "Times New Roman", Times, serif;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+}
+
+h1 {
+	font-variant: small-caps;
+}
+
+a:hover {
+	background-color: #ffff7fff;
+	color: black;
+	font-weight: bold;
+}
+
+.siteLogo {
+	width: 100px;
+}
+
+#contactUsHeader {
+	width: 2%;
+	float: right;
+	margin: 5px 10px 0 10px;
+}
+
+span.imageText {
+	font-weight: bolder;
+	font-size: x-large;
+}
+
+body {
+	font-size: large;
+}
+
+#scription {
+	background-color: rgb(255,255,255,.5);
+}
+
+#submit {
+	background-color: #ffff7fff;
+	color: black;
+	font-weight: bold;
+}
+
+hr {
+	width: 30%;
+}
+
+.indexBodyImage {
+	height: 350px;
+}
+
+@media only screen and (max-width:480px){
+    .container {
+	    display: grid;
+	    grid-template-columns: 1fr;
+	    grid-template-areas: "header"
+	    					 "homepageImage"
+	    					 "safetyImage"
+	    					 "tramImage"
+	    					 "tramText"
+	    					 "foodImage"
+	    					 "foodText"
+	    					 "hotelImage"
+	    					 "hotelText"
+	    					 "footer";
+    }
+}
+@media only screen and (min-width:481px)
+{
+    .container {
+	    display: grid;
+	    grid-template-columns: 1fr 1fr;
+	    grid-template-areas: "header header"
+	    					 "homepageImage homepageImage"
+	    					 "safetyImage safetyImage"
+	    					 "tramImage tramText"
+	    					 "foodText foodImage"
+	    					 "hotelImage hotelText"
+	    					 "footer footer";
+    }
+}
+@media only screen and (min-width:1281px)
+{
+    .container {
+	    display:grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-areas: "header header"
+		    				 "homepageImage homepageImage"
+		    				 "safetyImage safetyImage"
+		    				 "tramImage tramText"
+		    				 "foodText foodImage"
+		    				 "hotelImage hotelText"
+		    				 "footer footer";
+    }
+}
+.header {
+	grid-area: header;
+}
+.homepageImage {
+	grid-area: homepageImage;
+}
+.safetyImage {
+	grid-area: safetyImage;
+}
+.tramImage {
+	grid-area: tramImage;
+}
+.tramText {
+	grid-area: tramText;
+	margin: auto;
+}
+.foodImage {
+	grid-area: foodImage;
+}
+.foodText {
+	grid-area: foodText;
+	margin: auto;
+}
+.hotelImage {
+	grid-area: hotelImage;
+}
+.hotelText {
+	grid-area: hotelText;
+	margin: auto;
+}
+.footer {
+	grid-area: footer;
+}

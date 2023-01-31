@@ -1,0 +1,208 @@
+* {
+	background-color: black;
+	font-family: "Times New Roman", Times, serif;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+}
+
+a:hover {
+	background-color: #ffff7fff;
+	color: black;
+	font-weight: bold;
+}
+
+.siteLogo {
+	width: 100px;
+}
+
+#contactUsHeader {
+	width: 2%;
+	float: right;
+	margin: 5px 10px 0 10px;
+}
+
+h1 {
+	font-variant: small-caps;
+}
+
+#scription {
+	background-color: rgb(255,255,255,.5);
+}
+
+#submit {
+	background-color: #ffff7fff;
+	color: black;
+	font-weight: bold;
+}
+
+body {
+	font-size: large;
+}
+
+.image {
+	padding-bottom: 50px;
+	width: 70%;
+}
+
+li {
+	list-style-position: inside;
+}
+
+.accordionPanelContainer {
+	width: 50%;
+	text-align: left;
+	margin: auto;
+}
+
+.accordionLabel {
+	font-size: larger;
+	margin: auto;
+	text-align: left;
+	padding-bottom: 10px;
+}
+
+.accordionPanel .content {
+	display: none;
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+ol {
+	display: inline-block;
+	text-align: left;
+}
+
+li {
+	text-align: left;
+}
+
+.accordionPanel.active .content {
+	display: block;
+} 
+
+.accordionPanel .content p {
+	display: inline;
+	text-align: left;
+}
+
+#footerHR {
+	width: 30%;
+}
+
+.tabbedPanelContainer {
+	margin: auto;
+	width: 60%;
+}
+
+.tabs {
+	list-style-type: none;
+}
+
+.tabs li {
+	display: inline-block;
+	text-align: center;
+	line-height: 1.5em;
+	width: 180px;
+	height: 30px;
+	background-color: white;
+	border-radius: 15px;
+}
+
+.tabs a {
+	text-decoration: none;
+	color: black;
+	background-color: white;
+}
+
+.tab-link.current > a {
+	background-color: #ffff7fff;
+}
+
+.tab-link.current {
+	background-color: #ffff7fff;
+}
+
+.tab-content {
+	text-align: center;
+	display: none;
+}
+
+.tab-content.current {
+	display: inherit;
+}
+
+.tabbedPanelImages {
+	width: 30%;
+}
+
+table {
+	display: inline-block;
+}
+
+table, th, td {
+	text-align: center;
+	border: solid 1px #ffff7fff;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 1em;
+}
+
+th {
+	color: #ffff7fff;
+}
+
+.bold {
+	font-weight: bold;
+	color: #ffff7fff;
+}
+
+#gallery {
+	width: 900px;
+	height: 650px;
+	margin: auto;
+}
+
+#thumbnails > ul {
+	list-style-type: none;
+}
+
+.thumbnailImg {
+	width: 120px;
+	height: 80px;
+	margin-bottom: 5px;
+}
+
+#thumbnails { 
+	float: left; 
+	padding-top: 0;
+	margin-top: 0;
+}
+
+.textInput {
+	background-color: rgb(255,255,255,.5);
+	text-align: left;
+}
+
+#comment {
+	height: 100px;
+	width: 300px;
+}
+
+#contactUsIcon {
+	height:30px;
+	padding-bottom: 20px;	
+}
+
+#contactForm {
+	text-align: left;
+	display: inline-block;
+}
+
+#submitButton {
+	background-color: #ffff7fff;
+	color: black;
+	font-weight: bold;
+}
